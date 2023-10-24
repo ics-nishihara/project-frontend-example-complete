@@ -12,6 +12,8 @@ type Props = {
   prefPopulationList: PrefPopulation[];
 };
 
+//
+
 const DataTable = ({ prefPopulationList }: Props) => {
   const columns: GridColDef[] = [
     {
